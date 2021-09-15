@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.4.1-cudnn8-runtime-ubuntu18.04
+FROM nvidia/cuda:11.2.0-cudnn8-devel-ubuntu18.04
 
 COPY requirements.txt /requirements.txt
 RUN apt-get update && \
